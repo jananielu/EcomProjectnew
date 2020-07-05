@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name = "org.ecom.ListenerTest"/>
+</listeners>
+  <test name="Test">
+  <parameter name="url" value="https://www.6pm.com/"/>
+  <parameter name="email" value="jananielumalai89@gmail.com"/>
+  <parameter name="password" value="jani@8818"/>
+  <parameter name="search" value="fashion watches"/>
+  <classes>
+  <class name="org.ecom.ExecutableClass"/>
+  </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

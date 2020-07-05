@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="jani@8818"/>
+  <parameter name="search" value="fashion watches"/>
+  <parameter name="url" value="https://www.6pm.com/"/>
+  <parameter name="email" value="jananielumalai89@gmail.com"/>
+  <listeners>
+    <listener class-name="org.ecom.ListenerTest"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="password" value="jani@8818"/>
+    <parameter name="search" value="fashion watches"/>
+    <parameter name="url" value="https://www.6pm.com/"/>
+    <parameter name="email" value="jananielumalai89@gmail.com"/>
+    <classes>
+      <class name="org.ecom.ExecutableClass">
+        <methods>
+          <include name="testcase5"/>
+        </methods>
+      </class> <!-- org.ecom.ExecutableClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
